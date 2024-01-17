@@ -1,0 +1,44 @@
+#welcomeScreen {
+  background-color: #F7E6BB;
+  text-align: left;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ranchers";
+}
+#welcomeScreen h1 {
+  color: #E73369;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+#welcomeScreen h2 {
+  color: #E73369;
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+
+#button-div {
+  background-color: #E73369;
+  position: sticky;
+  bottom: 0%;
+  height: 10em;
+  font-family: "Ranchers";
+}
+#button-div #startButton {
+  background-color: #E73369;
+  color: black;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 3em;
+  font-family: "Ranchers";
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#button-div #startButton:hover {
+  background-color: #a1133e;
+}/*# sourceMappingURL=welcome.css.map */

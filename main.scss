@@ -1,0 +1,110 @@
+#cont-main{
+    background-color: rgb(213, 84, 84);
+    width:100%;
+    height:max-content;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    align-content:stretch;
+        
+
+        #DareButton{
+            background-color: #2C81FF;
+            height: 8em; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            color: #00FBFB;
+            border: none;
+            width: 100%;
+            
+            font-size: 3em;
+            font-family: 'Ranchers';
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        
+        
+            &:hover {
+            background-color: darken(blue, 20%);
+            }
+
+        }
+    
+
+        #TruthButton{
+            display: flex;
+            height: 8em;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-color: #E73369;
+            color: #FFC120;
+            border: none;
+            width: 100%;
+            
+            font-size: 3em;
+            font-family: 'Ranchers';
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        
+        
+            &:hover {
+            background-color: darken(rgb(170, 0, 255), 20%);
+            }
+
+        }
+    }
+
+
+
+    #dropdownButton {
+        display: flex;
+        height: 3.5em;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #F9F06F;
+        color: black;
+        border: none;
+        font-size: 3em;
+        font-family: 'Ranchers';
+      }
+      
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #A7C112;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        bottom: 0;
+        height: 3.5em;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        background-color: #F9F06F;
+        color: black;
+        border: none;
+        font-size: 3em;
+        font-family: 'Ranchers';
+      }
+      
+      
+      .dropdown-content a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display:block;
+        bottom: 400px;
+      }
+      
+      
+      .dropdown-content a:hover {
+        background-color: #D22727;
+      }
+      
+      
+      #dropdownButton:hover  {
+      background-color: #FFC120;
+      }

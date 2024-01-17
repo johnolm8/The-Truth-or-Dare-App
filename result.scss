@@ -1,0 +1,50 @@
+$background-color: #F7E6BB; 
+$text-color: #E73369; 
+$button-color: #00FBB0;
+$button-hover-color: darken($button-color, 20%);
+
+
+#resultScreen {
+  background-color: $background-color;
+  text-align: left;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;  
+  align-items: center;
+  font-family: 'Ranchers';
+
+  h1 {
+    color: $text-color;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+
+}
+
+#button-div {
+    background-color: $button-color;
+    position: sticky;
+    bottom: 0%;
+    height: 10em;
+    font-family: 'Ranchers';
+
+    #doneButton {
+    background-color: $button-color;
+    color: black;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 3em;
+    font-family: 'Ranchers';
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+
+    &:hover {
+    background-color: $button-hover-color;
+    }
+    }
+}
