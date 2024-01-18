@@ -9,7 +9,7 @@
   align-items: stretch;
   align-content: stretch;
 }
-#cont-main #DareButton {
+#cont-main #dareButton {
   background-color: #2C81FF;
   height: 8em;
   display: flex;
@@ -24,10 +24,10 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-#cont-main #DareButton:hover {
+#cont-main #dareButton:hover {
   background-color: #000099;
 }
-#cont-main #TruthButton {
+#cont-main #truthButton {
   display: flex;
   height: 8em;
   align-items: center;
@@ -42,7 +42,7 @@
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-#cont-main #TruthButton:hover {
+#cont-main #truthButton:hover {
   background-color: #660099;
 }
 

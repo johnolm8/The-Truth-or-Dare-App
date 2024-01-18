@@ -1,0 +1,39 @@
+#resultScreen {
+  background-color: #f7bbf6;
+  text-align: left;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ranchers";
+}
+#resultScreen h1 {
+  color: #E73369;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+#button-div {
+  background-color: #00FBB0;
+  position: sticky;
+  bottom: 0%;
+  height: 10em;
+  font-family: "Ranchers";
+}
+#button-div #doneButton {
+  background-color: #00FBB0;
+  color: black;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 3em;
+  font-family: "Ranchers";
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#button-div #doneButton:hover {
+  background-color: #009568;
+}/*# sourceMappingURL=result copy.css.map */
